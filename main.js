@@ -10,8 +10,8 @@ import { obtenerPjPorUrl } from './api/obtenerPjPorUrl';
 
 document.querySelector('#app').innerHTML = `
   <div >
-      <img src="./public/imagen.webp" alt="imagen" class="img-fluid " >
-      <img src="./public/Logo.png" alt="Logo" style="min-width: 100vw;">
+      <img src="./src/assets/img/imagen.webp" alt="imagen" class="img-fluid " >
+      <img src="./src/assets/img/Logo.png" alt="Logo" style="min-width: 100vw;">
   </div>
   <div class="d-flex justify-content-center align-items-center  text-white" style="min-height: 10vh;">
     <h1>RICK AND MORTY!</h1>
