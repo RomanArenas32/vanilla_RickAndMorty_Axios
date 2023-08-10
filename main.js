@@ -1,4 +1,3 @@
-import axios from 'axios';
 import './style.css'
 import { obtenerTodosLosPj } from './api/obtenerTodosLosPj';
 import { obtenerPjPorPagina } from './api/obtenerPjPorPage';
@@ -9,7 +8,6 @@ import { obtenerPjPorUrl } from './api/obtenerPjPorUrl';
 
 
 document.querySelector('#app').innerHTML = `
-  
   <div class="d-flex justify-content-center align-items-center  text-white" style="min-height: 10vh;">
     <h1>RICK AND MORTY!</h1>
   </div>
